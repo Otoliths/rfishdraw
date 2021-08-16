@@ -64,7 +64,7 @@ for(i in seq(length(dat))) {
 fish_draw()
 
 ```
-![](inst/ggplot2.png)
+![](inst/single.png)
 
 ##### fish drawings via ggplot2
 ```
