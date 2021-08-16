@@ -1,5 +1,5 @@
 # rfishdraw
-Procedurally Generated Fish Drawings Via Javascript
+Procedurally generated fish drawings via ggplot2 based on [fishdraw Javascript](https://github.com/LingDong-/fishdraw) JavaScript library. Note: You need to install [nodejs](https://nodejs.org/en/) before using the [rfishdraw](https://github.com/Otoliths/rfishdraw) package.
 
 
 ### Windows
