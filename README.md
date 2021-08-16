@@ -6,7 +6,7 @@ Procedurally generated fish drawings via ggplot2 based on [fishdraw Javascript](
 
 ### Windows
 
-Installing nodejs under from windows [nodejs](https://nodejs.org/en/). 
+Installing nodejs under windows from [nodejs](https://nodejs.org/en/). 
 
 ### MacOS
 
