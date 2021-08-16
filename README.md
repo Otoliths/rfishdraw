@@ -36,8 +36,47 @@ install_github("Otoliths/rfishdraw")
 ```r
 library("rfishdraw")
 ```
-##### Take "Artemisia argyi"
+##### Get outputs polylines in svg
+```
+get_polylines(path = "inst/fishdraw.js",
+              format = "smil",
+              output = "animated.svg",
+              draw_type = "random")
+```
+![](inst/animated.svg)
 
+##### fish drawings via plot
+```
+file <- system.file("extdata",package = "rfishdraw")
+dat <- readRDS(paste0(file,"/","output_json.rds"))
+for (i in seq(length(dat))) {
+dat[[i]] <- cbind(dat[[i]],i)
+}
+plot(NA, xlim = c(0,520),ylim = c(-320,0),axes = F,xlab = " ",ylab = " ")
+for(i in seq(length(dat))) {
+  lines(x = dat[[i]][,1],y = -dat[[i]][,2], lwd=2, col = "blue")
+}
+```
+![](inst/animated.svg)
+
+##### fish drawings via ggplot2
+```
+fish_draw()
+
+```
+![](inst/animated.svg)
+
+##### fish drawings via ggplot2
+```
+require(ggplot2)
+p1 <- fish_draw() +
+  theme_bw()
+
+library(patchwork)
+p1+p1+p1+p1+p1+p1+plot_layout(ncol = 2)
+
+```
+![](inst/animated.svg)
 
 
 ## :heart: Contribution
