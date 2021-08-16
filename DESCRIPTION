@@ -6,6 +6,7 @@ Date: 2021-08-16
 Author: Liuyong Ding
 Maintainer: Liuyong Ding <ly_ding@126.com>
 Description: Procedurally generated fish drawings via ggplot2 based on fishdraw JavaScript library <https://github.com/LingDong-/fishdraw>.
+Depends: R (>= 3.5.0)
 Imports: 
   jsonlite,
   ggplot2
