@@ -32,12 +32,12 @@ install_github("Otoliths/rfishdraw")
 ```
 ## :beginner: Example
 
-###### Load the **rfishdraw** package
+##### Load the **rfishdraw** package
 ```r
 library("rfishdraw")
 ```
 
-###### create and implement a custom JS library
+##### create and implement a custom JS library
 ```
 custom_params(path = "./fishdraw.js",
   save = getwd(),
