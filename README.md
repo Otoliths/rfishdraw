@@ -57,26 +57,26 @@ for(i in seq(length(dat))) {
   lines(x = dat[[i]][,1],y = -dat[[i]][,2], lwd=2, col = "blue")
 }
 ```
-![](inst/animated.svg)
+![](inst/plot.png)
 
 ##### fish drawings via ggplot2
 ```
 fish_draw()
 
 ```
-![](inst/animated.svg)
+![](inst/ggplot2.png)
 
 ##### fish drawings via ggplot2
 ```
 require(ggplot2)
 p1 <- fish_draw() +
-  theme_bw()
+  theme_void()
 
 library(patchwork)
 p1+p1+p1+p1+p1+p1+plot_layout(ncol = 2)
 
 ```
-![](inst/animated.svg)
+![](inst/mult.png)
 
 
 ## :heart: Contribution
