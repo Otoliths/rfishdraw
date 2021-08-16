@@ -20,3 +20,11 @@ node --version
 ```
 sudo apt-get install nodejs
 ```
+
+## Installing
+
+Install development versions from GitHub with:
+```r
+library(devtools)
+install_github("Otoliths/rfishdraw")
+```
