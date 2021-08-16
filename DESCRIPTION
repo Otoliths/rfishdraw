@@ -1,0 +1,16 @@
+Package: rfishdraw
+Type: Package
+Title: Procedurally Generated Fish Drawings Via Javascript
+Version: 0.1.0
+Date: 2021-08-16
+Author: Liuyong Ding
+Maintainer: Liuyong Ding <ly_ding@126.com>
+Description: Procedurally generated fish drawings via ggplot2 based on fishdraw JavaScript library <https://github.com/LingDong-/fishdraw>.
+Imports: 
+  jsonlite,
+  ggplot2
+License: Artistic-2.0
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
+
