@@ -4,7 +4,7 @@ Procedurally Generated Fish Drawings Via Javascript
 
 ### Windows
 
-Installing nodejs from [nodejs](https://nodejs.org/en/) is installed. 
+Installing nodejs under from windows [nodejs](https://nodejs.org/en/). 
 
 ### MacOS
 
