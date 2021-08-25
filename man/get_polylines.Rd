@@ -40,7 +40,7 @@ get_polylines(path = "inst/fishdraw.js",
               output = "output.json",
               draw_type = "random")
 
-# Get outputs polylines in json
+# Get outputs polylines in smil
 get_polylines(path = "inst/fishdraw.js",
               format = "smil",
               output = "output.svg",
