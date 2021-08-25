@@ -26,7 +26,7 @@ This **rfishdraw** package procedurally generated fish drawings via [ggplot2](ht
 **Note**: You need to install [nodejs](https://nodejs.org/en/) before using the [rfishdraw](https://github.com/Otoliths/rfishdraw) package.
 
 
-## :arrow_double_down: Installation
+## Installation
 
 ### Windows
 
@@ -34,9 +34,9 @@ Installing nodejs under windows from [nodejs](https://nodejs.org/en/).
 
 ### MacOS
 
-brew search node 
-brew install node@14
-brew link node@14
+brew search node \\
+brew install node@14 \\
+brew link node@14 \\
 node --version
 
 
@@ -45,13 +45,11 @@ node --version
 sudo apt-get install nodejs
 
 
-## :beginner: Example
+## Example
 
 ##### Load the **rfishdraw** package
 
-```{r include=FALSE}
-knitr::opts_chunk$set(warning = FALSE,
-                      message = TRUE)
+```{r}
 library("rfishdraw")
 library("patchwork")
 library("ggplot2")
@@ -141,7 +139,7 @@ for(i in seq(length(dat))) {
 
 ##### fish drawings via ggplot2
 
-```{r fig.keep="last"}
+```{r}
 fish_draw()
 
 ```
@@ -149,7 +147,7 @@ fish_draw()
 
 ##### fish drawings via ggplot2
 
-```{r fig.keep="last"}
+```{r }
 
 p1 <- fish_draw() +
   theme_void()
@@ -160,7 +158,7 @@ p1+p1+p1+p1+p1+p1+plot_layout(ncol = 2)
 
 
 
-## :heart: Contribution
+## Contribution
 
 Contributions to this package are welcome. 
 The preferred method of contribution is through a GitHub pull request. 
