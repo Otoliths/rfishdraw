@@ -34,9 +34,12 @@ Installing nodejs under windows from [nodejs](https://nodejs.org/en/).
 
 ### MacOS
 
-brew search node \\
-brew install node@14 \\
-brew link node@14 \\
+brew search node
+
+brew install node@14
+
+brew link node@14
+
 node --version
 
 
