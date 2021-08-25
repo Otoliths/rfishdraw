@@ -28,7 +28,7 @@ sudo apt-get install nodejs
 Install development versions from GitHub with:
 ```r
 library(devtools)
-install_github("Otoliths/rfishdraw")
+install_github("Otoliths/rfishdraw",build_vignettes = TRUE)
 ```
 ## :beginner: Example
 
