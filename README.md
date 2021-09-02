@@ -1,5 +1,5 @@
 # rfishdraw
-Procedurally generated fish drawings via [ggplot2](https://github.com/tidyverse/ggplot2) based on [fishdraw Javascript](https://github.com/LingDong-/fishdraw) library. Note: You need to install [nodejs](https://nodejs.org/en/) before using the [rfishdraw](https://github.com/Otoliths/rfishdraw) package.
+Programmatically generated fish drawings via [ggplot2](https://github.com/tidyverse/ggplot2) based on [fishdraw Javascript](https://github.com/LingDong-/fishdraw) library. Note: You need to install [nodejs](https://nodejs.org/en/) before using the [rfishdraw](https://github.com/Otoliths/rfishdraw) package.
 
 
 ## :arrow_double_down: Installation
