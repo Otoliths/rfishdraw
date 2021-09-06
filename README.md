@@ -1,3 +1,9 @@
+[![CRAN Version](http://www.r-pkg.org/badges/version/rfishdraw)](https://cran.r-project.org/package=rfishdraw)
+
+<!-- r badge_devel("Otoliths/rfishdraw", "blue") -->
+[![](https://cranlogs.r-pkg.org/badges/grand-total/rfishdraw?color=orange)](https://cran.r-project.org/package=rfishdraw)
+
+
 # rfishdraw
 Programmatically generated fish drawings via [ggplot2](https://github.com/tidyverse/ggplot2) based on [fishdraw Javascript](https://github.com/LingDong-/fishdraw) library. Note: You need to install [nodejs](https://nodejs.org/en/) before using the [rfishdraw](https://github.com/Otoliths/rfishdraw) package.
 
