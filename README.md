@@ -1,4 +1,6 @@
 [![CRAN Version](http://www.r-pkg.org/badges/version/rfishdraw)](https://cran.r-project.org/package=rfishdraw)
+[![codecov](https://badge.fury.io/gh/Otoliths%2Frfishdraw.svg)](https://badge.fury.io/for/gh/Otoliths/rfishdraw)
+[![Rdoc](https://www.rdocumentation.org/badges/version/rfishdraw)](https://www.rdocumentation.org/packages/rfishdraw)
 
 <!-- r badge_devel("Otoliths/rfishdraw", "blue") -->
 [![](https://cranlogs.r-pkg.org/badges/grand-total/rfishdraw?color=orange)](https://cran.r-project.org/package=rfishdraw)
