@@ -32,6 +32,11 @@ sudo apt-get install nodejs
 
 ### Installing rfishdraw
 
+Install current official release:
+```r
+install.packages("rfishdraw")
+```
+
 Install development versions from GitHub with:
 ```r
 library(devtools)
