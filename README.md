@@ -153,3 +153,7 @@ p1+p1+p1+p1+p1+p1+plot_layout(ncol = 2)
 Contributions to this package are welcome. 
 The preferred method of contribution is through a GitHub pull request. 
 Feel also free to contact us by creating [**an issue**](https://github.com/Otoliths/rfishdraw/issues).
+
+
+## Visitor Count
+![Visitor Count](https://profile-counter.glitch.me/rfishdraw/count.svg)
